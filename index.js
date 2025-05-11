@@ -7,7 +7,7 @@ import {
   generateUniqueId,
   initSortableList,
   updateListTasks,
-} from "./utils.js";
+} from "../to-do-list/utils.js";
 
 const form = document.querySelector(".form");
 const textareaForm = document.querySelector(".form__textarea");

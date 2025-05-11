@@ -1,4 +1,4 @@
-import { doneSvg, pinnedSvg, delSvg, editSvg } from "./svg.js";
+import { doneSvg, pinnedSvg, delSvg, editSvg } from "../to-do-list/svg.js";
 
 export function getTasksLocalStorage() {
   const tasksJSON = localStorage.getItem("tasks");
